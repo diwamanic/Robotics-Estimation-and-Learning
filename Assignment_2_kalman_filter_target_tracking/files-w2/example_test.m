@@ -95,6 +95,7 @@ hold on;
 plot(predictions(1, :), predictions(2, :), 'mo-');
 hold off;
 legend('Observed','End','Start','Your Prediction','Kalman Prediction');
+saveas(gcf, "ball_pose_tracking.jpg")
 
 % figure(20);
 % clf;hold on;
